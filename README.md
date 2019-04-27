@@ -8,11 +8,8 @@ Please visit my wiki:
 https://github.com/juztinlazaro/react-starter-kit/wiki
 
 Note: 
-I used my react-starter-kit-ts, but right now i don't have a time to create a documentation. Hopefully soon i can create the documentation this repo.
-but some of the documentation is almost in the react-starter-kit https://github.com/juztinlazaro/react-starter-kit/wiki
-```
-react ts - https://github.com/juztinlazaro/react-starter-kit-ts
-```
+I used my react-starter-kit-ts, but right now i don't have a time to create a documentation. Hopefully soon i can write a documentation for this repo.
+ https://github.com/juztinlazaro/react-starter-kit-ts but some of the documentation is almost in the react-starter-kit https://github.com/juztinlazaro/react-starter-kit/wiki
 
 #### Others
 also i have a vue-starter-kit, hopefully in the future i can write a documentation. 
