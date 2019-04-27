@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Icon from 'antd/lib/icon';
 import Button from 'antd/lib/button';
+import Empty from 'antd/lib/empty';
 import {
   ITransactionProps,
   ITransaction,
@@ -82,6 +83,7 @@ const Transactions: React.FC<ITransactionProps> = ({
       </div>
 
       <div className="transaction-container">
+        {transactions.length === 0 && <Empty />}
         {transactions.map((transaction: ITransaction, index: number) => {
           return (
             <TransactionItem
