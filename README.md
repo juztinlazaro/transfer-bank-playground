@@ -13,5 +13,6 @@ Please visit my wiki:
 https://github.com/juztinlazaro/react-starter-kit/wiki
 
 #### Others
-also i have a vue-starter-kit, hopefully in the future i can write a documentation.
-https://github.com/juztinlazaro/vue-starter-kit
+also i have some starterkit.
+vuejs - https://github.com/juztinlazaro/vue-starter-kit
+nest-auth-api - https://github.com/juztinlazaro/nest-auth-api-starterkit
