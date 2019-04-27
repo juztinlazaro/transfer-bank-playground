@@ -79,9 +79,6 @@ class Sidebar extends React.Component<ISidebarProps, ISidebarState> {
       transactionDate,
     };
 
-    this.props.setTransactionRecord({ transaction: formUser });
-    this.props.setDeductAmountUser({ deductAmount: { formUser, toUser } });
-
     Notification.success({
       description: `${toAccount.merchant} transferred $${amount}.00`,
       message: 'Transfer money success!',
@@ -98,6 +95,9 @@ class Sidebar extends React.Component<ISidebarProps, ISidebarState> {
         amount: 0,
       },
     });
+
+    this.props.setTransactionRecord({ transaction: formUser });
+    this.props.setDeductAmountUser({ deductAmount: { formUser, toUser } });
   };
 
   handleCancelModal = () => {

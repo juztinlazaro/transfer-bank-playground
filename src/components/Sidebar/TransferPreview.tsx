@@ -2,6 +2,7 @@ import * as React from 'react';
 import Modal from 'antd/lib/modal';
 import Icon from 'antd/lib/icon';
 import Spin from 'antd/lib/spin';
+import Notification from 'antd/lib/notification';
 import { ITransferPreview } from './interface';
 
 const TransferPreview: React.SFC<ITransferPreview> = ({
@@ -20,8 +21,17 @@ const TransferPreview: React.SFC<ITransferPreview> = ({
     setIsTransfer(true);
 
     setTimeout(() => {
+      if (Number(fromAccount.amount) < -500) {
+        Notification.error({
+          description: 'cant transfer amount less than -500',
+          message: 'Something went wrong!',
+          placement: 'bottomRight',
+        });
+      } else {
+        onOk();
+      }
+
       setIsTransfer(false);
-      onOk();
     }, 2000);
   };
   return (
