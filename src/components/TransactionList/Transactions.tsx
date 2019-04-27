@@ -57,7 +57,7 @@ const Transactions: React.FC<ITransactionProps> = ({
               <Icon type="caret-down" />
             </Button>
           </div>
-          <div className="logo">Log</div>
+          <div className="logo">Logo</div>
           <div className="company-name">
             Merchant
             <Button
