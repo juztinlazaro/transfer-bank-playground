@@ -1,0 +1,25 @@
+.panel {
+  position: relative;
+
+  .panel-header {
+    position: relative;
+    background: $aquamarine;
+    padding: 10px 20px;
+    color: $diamond;
+  }
+
+  .panel-header .icon {
+    margin-right: 20px;
+    position: absolute;
+  }
+
+  .panel-header .title {
+    display: block;
+    text-align: center;
+  }
+
+  .panel-body {
+    background: $diamond;
+    padding: 20px;
+  }
+}

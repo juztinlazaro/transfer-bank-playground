@@ -1,0 +1,46 @@
+.sidebar-section {
+  .submit-button {
+    height: 40px;
+    width: 150px;
+    color: $diamond;
+    background: $sunstone;
+    border: 1px solid $diamond;
+
+    &:hover {
+      background: $diamond;
+      color: $sunstone;
+      border: 1px solid $sunstone;
+    }
+  }
+}
+
+.transfer-preview-modal {
+  display: flex;
+
+  .transfer-details div {
+    padding: 10px 20px;
+    min-height: 70px;
+  }
+
+  .transfer-details .anticon-arrows-alt {
+    margin: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    color: $aquamarine-dark;
+    text-align: center;
+    display: block;
+  }
+
+  .transfer-spinner {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.8);
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,59 @@
+.ui-input-label {
+  margin-bottom: 30px;
+
+  .label {
+    text-transform: uppercase;
+    font-weight: 700;
+    display: block;
+  }
+}
+
+.ui-input {
+  border: 0px;
+  border-bottom: 2px solid $moonstone;
+  border-radius: 0px;
+  outline: none;
+  box-shadow: none;
+  color: $moonstone-dark;
+  padding: 0px;
+  width: 100%;
+
+  &:focus,
+  &:hover {
+    box-shadow: none;
+  }
+
+  .ant-input {
+    border: 0px;
+
+    &:focus,
+    &:hover {
+      box-shadow: none;
+    }
+  }
+}
+
+.ui-input-select {
+  border: 0px;
+  border-bottom: 2px solid $moonstone;
+  border-radius: 0px;
+  outline: none;
+  box-shadow: none;
+  color: $moonstone-dark;
+  padding: 0px;
+  width: 100%;
+
+  .ant-select-selection {
+    border: 0px;
+    box-shadow: none;
+  }
+
+  .ant-select-arrow {
+    display: none;
+  }
+
+  &:focus,
+  &:hover {
+    box-shadow: none;
+  }
+}

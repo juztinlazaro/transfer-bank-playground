@@ -1,0 +1,12 @@
+.layout-section {
+  background-image: url('../images/background.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: calc(110vh - 94px);
+
+  .layout-body {
+    padding: 60px 80px;
+    margin: 0px !important;
+  }
+}

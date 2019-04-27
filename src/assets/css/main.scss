@@ -1,0 +1,18 @@
+/* PARTIALS */
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+@import 'partials/color-scheme';
+@import 'partials/helpers';
+
+/* GLOBAL STYLE */
+@import 'global/global';
+
+/* UI STYLE */
+@import 'ui/panel';
+@import 'ui/input';
+
+/* COMPONENTS STYLE */
+@import 'components/layout';
+@import 'components/sidebar';
+
+/* HOME STYLE */
+@import 'modules/home';
