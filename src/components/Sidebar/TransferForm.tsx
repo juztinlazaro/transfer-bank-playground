@@ -29,7 +29,7 @@ const TransferForm: React.SFC<ITransferForm> = ({
           placeholder="Free Checking(4692) - $5824.76"
           showSearch={true}
           onChange={onSelectFromAccount}
-          value={fromAccount.merchant}
+          value={fromAccount.merchant === '' ? undefined : fromAccount.merchant}
         >
           {userList.map((item: ITransaction) => (
             <Option key={item.merchant} value={item.merchant}>
@@ -46,7 +46,7 @@ const TransferForm: React.SFC<ITransferForm> = ({
           placeholder="Georgia Power Electric Company"
           showSearch={true}
           onChange={onSelectToAccount}
-          value={toAccount.merchant}
+          value={toAccount.merchant === '' ? undefined : toAccount.merchant}
         >
           {toAccountList.map((item: ITransaction) => (
             <Option key={item.merchant} value={item.merchant}>
@@ -63,7 +63,7 @@ const TransferForm: React.SFC<ITransferForm> = ({
           type="number"
           className="ui-input"
           placeholder="$0.00"
-          value={amount}
+          value={amount === 0 ? undefined : amount}
         />
       </div>
 
