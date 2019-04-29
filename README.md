@@ -11,6 +11,8 @@ I used my react-starter-kit-ts, but right now i don't have a time to create a do
 #### For Coding standards and best practice
 Please visit my wiki:
 https://github.com/juztinlazaro/react-starter-kit/wiki
+- CSS style guide https://github.com/juztinlazaro/react-starter-kit/wiki/Css-Style-Guide
+- React coding standard https://github.com/juztinlazaro/react-starter-kit/wiki/React-Style-Guide
 
 #### Others
 also i have some starterkit.
